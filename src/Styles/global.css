@@ -17,7 +17,7 @@
 
   html,
   body{
-    background-color: var(--color-background);
+    background: linear-gradient(72deg,#ff0094,1%,#fff,99% );
   }
 
   a{
@@ -35,7 +35,6 @@
 
   main{
     width: 100%;
-    height: calc(100vh - 120px);
     display: flex;
   }
 

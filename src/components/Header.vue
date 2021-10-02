@@ -4,8 +4,7 @@
         <nav class="container">
 
     
-            <a href="/">    <h1 id="logo">AquÍmoveis</h1>   </a>
-            
+            <a href="/">    <h1 id="logo">KeyÍmoveis</h1>   </a>
             <img v-on:click="openMenu" alt="abrir menu" id="menu-button" src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/menu.svg
 ">
 
@@ -13,12 +12,12 @@
 
             <div id="menu-items" :class="{active:menuActive}">
 
-                <h1 id="menu-logo">AquÍmoveis</h1> 
+                <h1 id="menu-logo">KeyÍmoveis</h1> 
                 
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/sobre">Sobre</a></li>
-                    <li><a href="/contato">Contato</a></li>
+                    <li><a href="/">Sobre</a></li>
+                    <li><a href="/">Contato</a></li>
                 </ul>
 
             </div>
@@ -74,6 +73,7 @@ export default{
     }
     #menu-button{
         width: 30px;
+        cursor: pointer;
     }
     #menu-overlay{
         position: fixed;
@@ -106,6 +106,7 @@ export default{
          display: flex;
      }
 
+    
     
     ul{
         list-style: none;
