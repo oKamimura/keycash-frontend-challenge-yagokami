@@ -13,5 +13,5 @@ irá gerar um link local, exemplo:
 ```
 npm run build
 ````
-Gerando pasta 'Dist' 
+Gerando pasta 'Dist' responsável pelos arguivos da página
  
