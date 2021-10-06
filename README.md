@@ -9,5 +9,8 @@ irá gerar um link local, exemplo:
   - Local:   http://localhost:8080/
   - Network: http://192.168.0.9:8080/
 
-## Deploy
+## Deploy feito pelo GitHub Pages
+```
+https://okamimura.github.io/keycash-frontend-challenge-yagokami/
+````
 
