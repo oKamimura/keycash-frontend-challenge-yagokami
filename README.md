@@ -11,6 +11,7 @@ irá gerar um link local, exemplo:
 
 ## Deploy feito pelo GitHub Pages
 ```
-
+npm run build
 ````
-
+Gerando pasta 'Dist' 
+ 
