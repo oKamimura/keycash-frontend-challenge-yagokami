@@ -1,24 +1,13 @@
 # keycash-frontend-challenge-yagokami
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
+## Para rodar localmente: (no terminal)
 ```
 npm run serve
 ```
+irá gerar um link local, exemplo:
+  
+  - Local:   http://localhost:8080/
+  - Network: http://192.168.0.9:8080/
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Deploy
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
