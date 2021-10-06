@@ -3,8 +3,7 @@
 
         <nav class="container">
 
-    
-            <a href="/">    <h1 id="logo">KeyÍmoveis</h1>   </a>
+            <a href="/">    <h1 id="logo">KeyImóveis</h1>   </a>
             <img v-on:click="openMenu" alt="abrir menu" id="menu-button" src="https://raw.githubusercontent.com/william-costa/wdev-mock-site-resources/master/assets/images/menu.svg
 ">
 
@@ -12,7 +11,7 @@
 
             <div id="menu-items" :class="{active:menuActive}">
 
-                <h1 id="menu-logo">KeyÍmoveis</h1> 
+              
                 
                 <ul>
                     <li><a href="/">Home</a></li>
@@ -66,55 +65,39 @@ export default{
         align-items: center;
     }
     #logo{
-        width: 56px;
+        width: 40px;
         height: 56px;  
         padding: 21% 7%;
         color: rgb(0, 0, 0);
+      
     }
+    
     #menu-button{
         width: 30px;
         cursor: pointer;
     }
-    #menu-overlay{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 40%;
-        height: 100vh;
-        background-color: black;
-        opacity: 0.7;
-    }
 
-    #menu-logo{
-        width: 110px;
-        margin-top: 25px;
-        margin-bottom: 10px;
-    }
     #menu-items{
         position: fixed;
         top: 0;
         right: 0;
         background-color: var(--color-background-nav);
         width: 60%;
-        height: 100vh;
+        height: 9vh;
         display: none;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
+        float: right;
     }
      #menu-items.active{
          display: flex;
      }
 
-    
-    
     ul{
         list-style: none;
-        text-align: center;     
+        text-align: center; 
     }
 
     ul li{
-        margin: 20px 0px;
+        margin: 5px 0px;
     }
 
     ul li a{
