@@ -11,6 +11,6 @@ irá gerar um link local, exemplo:
 
 ## Deploy feito pelo GitHub Pages
 ```
-https://okamimura.github.io/keycash-frontend-challenge-yagokami/
+
 ````
 
