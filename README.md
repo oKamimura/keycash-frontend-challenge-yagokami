@@ -2,6 +2,10 @@
 
 ## Para rodar localmente: (no terminal)
 ```
+npm install
+````
+## Para gerar o local host: 
+```
 npm run serve
 ```
 irá gerar um link local, exemplo:
